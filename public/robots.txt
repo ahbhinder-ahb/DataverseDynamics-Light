@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dataversedynamics.org/sitemap.xml
