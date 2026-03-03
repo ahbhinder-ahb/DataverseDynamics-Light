@@ -234,7 +234,7 @@ logger.error = (msg, options) => {
 }
 
 export default defineConfig({
-	base: '/',
+	base: '/DataverseDynamics-Light/',
 	customLogger: logger,
 	plugins: [
 		...(isDev ? [inlineEditPlugin(), editModeDevPlugin(), iframeRouteRestorationPlugin(), selectionModePlugin()] : []),
